@@ -1,0 +1,51 @@
+$col: #337ab7;
+
+
+.fcontainer{
+    margin-top: -10px;
+    font-size: 15px;
+    font-family:Helvetica,Arial,sans-serif;
+    .fbody{
+        .terms{
+            ul{
+                list-style-type: none;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                li{
+                    color: $col;
+                    padding-right: 10px;
+                    a{
+                        text-decoration: none;
+                        color: $col;
+                        &:hover{
+                            text-decoration: underline;
+                        }
+                    }
+                }
+            }
+        }
+        .disclaimer{
+            margin-left: 20px;
+            margin-top: -8px;
+            display: flex;
+            justify-content: center;
+            text-align: center;
+            a{
+                text-decoration: none;
+                color: $col;
+                &:hover{
+                    text-decoration: underline;
+                }
+            }
+        }
+        .info{
+            display: flex;
+            justify-content: center;
+            p{
+                opacity: .9;
+                font-size: 11px;
+            }
+        }
+    }
+}

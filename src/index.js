@@ -1,0 +1,7 @@
+import React from 'react';
+import ReactDOM from 'react-dom';
+import Root from './Root.jsx';
+
+ReactDOM.render(<React.StrictMode>
+  <Root />
+  </React.StrictMode>,document.getElementById('root'));
